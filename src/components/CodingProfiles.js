@@ -19,6 +19,11 @@ import './CodingProfiles.css';
               <p>Problem Solver</p>
               <p>Handle: Shadow_oo7</p>
             </a>
+            <a href="https://www.geeksforgeeks.org/user/shekharn402/?_gl=1*aqa913*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwhO3DBhDkARIsANxrhTonvS9ffJ0uhilxGQDefKSZ6UA0wyQgwIaJu2vYv_oT5W36AS6lQSMaAgw6EALw_wcB&gbraid=0AAAAAC9yBkCGQ2D-Bv6QQ1RdjKrrCKwXo" target="_blank" rel="noopener noreferrer" className="profile-card leetcode">
+              <h3>GeeksForGeeks</h3>
+              <p>Problem Solver</p>
+              <p>Handle: shekharn402</p>
+            </a>
             <a href="https://github.com/ShadowOO7" target="_blank" rel="noopener noreferrer" className="profile-card github">
               <h3>GitHub</h3>
               <p>Open Source Contributions & Projects</p>
