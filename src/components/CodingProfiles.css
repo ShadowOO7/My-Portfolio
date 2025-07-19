@@ -1,0 +1,45 @@
+.profiles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .profile-card {
+      background-color: rgba(45, 55, 72, 0.9);
+      border-radius: 8px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      border: 1px solid transparent;
+    }
+
+    .profile-card:hover {
+      transform: translateY(-10px);
+      background-color: rgba(63, 78, 100, 0.95);
+      border-color: #63b3ed;
+    }
+
+    .profile-card h3 {
+      font-size: 1.8em;
+      color: #63b3ed;
+      margin-bottom: 10px;
+    }
+
+    .profile-card p {
+      font-size: 1em;
+      color: #cbd5e0;
+      margin-bottom: 5px;
+    }
+
+    /* Specific styles for different platforms (optional) */
+    .profile-card.codeforces h3 { color: #f26b21; } /* Codeforces orange */
+    .profile-card.leetcode h3 { color: #ffa116; } /* LeetCode orange */
+    .profile-card.github h3 { color: #808080; } /* GitHub grey/white */
+
+    @media (max-width: 768px) {
+      .profiles-grid {
+        grid-template-columns: 1fr; /* Stack on smaller screens */
+      }
+    }

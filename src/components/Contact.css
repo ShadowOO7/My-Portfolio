@@ -1,0 +1,113 @@
+.contact-content {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .contact-content p {
+      font-size: 1.1em;
+      color: #cbd5e0;
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+
+    .contact-link {
+      color: #63b3ed;
+      text-decoration: underline;
+    }
+
+    .contact-link:hover {
+      color: #4299e1;
+    }
+
+    .contact-form {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .form-group {
+      text-align: left;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1em;
+      color: #edf2f7;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #4a5568;
+      border-radius: 5px;
+      background-color: #2d3748;
+      color: #edf2f7;
+      font-size: 1em;
+      box-sizing: border-box; /* Include padding in width */
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #63b3ed;
+      box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.5);
+    }
+
+    .submit-btn {
+      background-color: #63b3ed;
+      color: #1a202c;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      align-self: flex-start; /* Align button to the left */
+    }
+
+    .submit-btn:hover {
+      background-color: #4299e1;
+      transform: translateY(-3px);
+    }
+
+    .form-note {
+        font-size: 0.9em;
+        color: #a0aec0;
+        margin-top: 20px;
+    }
+    .form-note a {
+        color: #63b3ed;
+        text-decoration: underline;
+    }
+    .form-note a:hover {
+        color: #4299e1;
+    }
+
+    /* ... existing styles ... */
+
+.success-message {
+  color: #4CAF50; /* Green */
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #f44336; /* Red */
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}

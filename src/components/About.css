@@ -1,0 +1,38 @@
+.about-section,
+    .coding-profiles-section,
+    .projects-section,
+    .resume-section,
+    .contact-section {
+      max-width: 1000px;
+      margin: 80px auto 40px auto; /* Top margin for spacing below header */
+      padding: 40px 20px;
+      background-color: rgba(30, 41, 59, 0.7); /* Slightly lighter dark background with transparency */
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+      text-align: left; /* Align text within section */
+    }
+
+    .section-header h2 {
+      font-size: 2.5em;
+      color: #63b3ed;
+      text-align: center;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    .section-header h2::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background-color: #63b3ed;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    .about-content p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: #cbd5e0;
+    }

@@ -1,0 +1,27 @@
+    .resume-content {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .resume-content p {
+      font-size: 1.1em;
+      color: #cbd5e0;
+      margin-bottom: 30px;
+    }
+
+    .resume-btn {
+      display: inline-block;
+      background-color: #63b3ed;
+      color: #1a202c;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 1.2em;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      border: 2px solid #63b3ed;
+    }
+
+    .resume-btn:hover {
+      background-color: #4299e1;
+      transform: translateY(-5px);
+    }
