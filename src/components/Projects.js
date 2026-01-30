@@ -6,7 +6,7 @@ const projectsData = [
         id: 1,
         title: "Unified-MEL",
         description: "A Unified Framework for Multimodal Entity Linking with Large Language Models.",
-        technologies: ["Python", "LLMs", "PEFT"],
+        technologies: ["Python", "LLMs", "PEFT", "Machine Learning"],
         githubLink: "https://github.com/ShadowOO7/Unified-MEL",
         // liveDemoLink: "YOUR_PROJECT_DEMO_LINK_1"
       },
