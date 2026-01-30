@@ -4,26 +4,26 @@ import './Projects.css';
 const projectsData = [
       {
         id: 1,
-        title: "E-commerce Store Frontend",
-        description: "A responsive e-commerce user interface built with React, demonstrating product listings, cart functionality, and user authentication flow.",
-        technologies: ["React", "CSS3", "React Router"],
-        githubLink: "YOUR_PROJECT_GITHUB_LINK_1",
+        title: "Unified-MEL",
+        description: "A Unified Framework for Multimodal Entity Linking with Large Language Models.",
+        technologies: ["Python", "LLMs", "PEFT"],
+        githubLink: "https://github.com/ShadowOO7/Unified-MEL",
         liveDemoLink: "YOUR_PROJECT_DEMO_LINK_1"
       },
       {
         id: 2,
-        title: "Real-time Chat Application",
-        description: "A real-time chat application featuring user authentication, message broadcasting, and private messaging, powered by WebSockets.",
-        technologies: ["Node.js", "Express", "Socket.IO", "React"],
-        githubLink: "YOUR_PROJECT_GITHUB_LINK_2",
+        title: "Real-Time-Trip-Planning-Assistant",
+        description: "A collaborative real-time travel planning assistant built with the MERN stack (MongoDB, Express, React, Node.js), featuring group itineraries, live updates, and integrated travel tools.",
+        technologies: ["Node.js", "Express", "Socket.IO", "React", "OpenStreetMap"],
+        githubLink: "https://github.com/ShadowOO7/Real-Time-Trip-Planning-Assistant",
         liveDemoLink: "YOUR_PROJECT_DEMO_LINK_2"
       },
       {
         id: 3,
-        title: "Algorithm Visualizer",
-        description: "An interactive web tool to visualize common sorting and pathfinding algorithms, helping users understand their step-by-step execution.",
-        technologies: ["React", "JavaScript", "SVG"],
-        githubLink: "YOUR_PROJECT_GITHUB_LINK_3",
+        title: "Personal Finance Assistant",
+        description: "This is a comprehensive Personal Finance Assistant application built with the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to manage their income and expenses, visualize financial data, and even parse PDF receipts",
+        technologies: ["React", "JavaScript", "bcryptjs (password hashing)", "Express", "jsonwebtoken (JWT)"],
+        githubLink: "https://github.com/ShadowOO7/Personal-Finance-Tracker",
         liveDemoLink: "YOUR_PROJECT_DEMO_LINK_3"
       },
     ];
