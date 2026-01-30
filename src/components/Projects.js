@@ -8,7 +8,7 @@ const projectsData = [
         description: "A Unified Framework for Multimodal Entity Linking with Large Language Models.",
         technologies: ["Python", "LLMs", "PEFT"],
         githubLink: "https://github.com/ShadowOO7/Unified-MEL",
-        liveDemoLink: "YOUR_PROJECT_DEMO_LINK_1"
+        // liveDemoLink: "YOUR_PROJECT_DEMO_LINK_1"
       },
       {
         id: 2,
@@ -16,7 +16,7 @@ const projectsData = [
         description: "A collaborative real-time travel planning assistant built with the MERN stack (MongoDB, Express, React, Node.js), featuring group itineraries, live updates, and integrated travel tools.",
         technologies: ["Node.js", "Express", "Socket.IO", "React", "OpenStreetMap"],
         githubLink: "https://github.com/ShadowOO7/Real-Time-Trip-Planning-Assistant",
-        liveDemoLink: "YOUR_PROJECT_DEMO_LINK_2"
+        // liveDemoLink: "YOUR_PROJECT_DEMO_LINK_2"
       },
       {
         id: 3,
@@ -24,7 +24,7 @@ const projectsData = [
         description: "This is a comprehensive Personal Finance Assistant application built with the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to manage their income and expenses, visualize financial data, and even parse PDF receipts",
         technologies: ["React", "JavaScript", "bcryptjs (password hashing)", "Express", "jsonwebtoken (JWT)"],
         githubLink: "https://github.com/ShadowOO7/Personal-Finance-Tracker",
-        liveDemoLink: "YOUR_PROJECT_DEMO_LINK_3"
+        // liveDemoLink: "YOUR_PROJECT_DEMO_LINK_3"
       },
     ];
 
