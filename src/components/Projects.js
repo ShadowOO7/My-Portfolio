@@ -1,3 +1,6 @@
+import React from 'react';
+import './Projects.css';
+
 const projectsData = [
   {
     id: 1,
@@ -35,3 +38,34 @@ const projectsData = [
     githubLink: "https://github.com/ShadowOO7/Personal-Finance-Tracker",
   },
 ];
+
+function Projects() {
+  return (
+    <section id="projects" className="projects-section">
+      <div className="section-header">
+        <h2>Featured Research & Projects</h2>
+      </div>
+      <div className="projects-grid">
+        {projectsData.map(project => (
+          <div key={project.id} className="project-card">
+            <h3>{project.title}</h3>
+            <p className="project-description">{project.description}</p>
+            <div className="project-tech">
+              {project.technologies.map((tech, index) => (
+                <span key={index} className="tech-pill">{tech}</span>
+              ))}
+            </div>
+            <div className="project-links">
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link github-link">GitHub</a>
+              {project.liveDemoLink && (
+                <a href={project.liveDemoLink} target="_blank" rel="noopener noreferrer" className="project-link demo-link">Live Demo</a>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export default Projects;
