@@ -2,7 +2,7 @@ import React from 'react';
 import './Resume.css';
 
     function Resume() {
-      const resumeLink = "https://drive.google.com/file/d/1ijW2ETOPz-dTaETGTzs7jT8CfkJECimr/view?usp=share_link";
+      const resumeLink = "https://drive.google.com/file/d/1ComJ8oGCFZtpuaMpZFyRPFDaxZ4D7gHb/view?usp=share_link";
 
       return (
         <section id="resume" className="resume-section">
