@@ -1,0 +1,33 @@
+.skills-section {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.skill-group h3 {
+  color: #63b3ed;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+}
+
+.skills-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-pill {
+  background: rgba(99, 179, 237, 0.12);
+  border: 1px solid #63b3ed;
+  color: #edf2f7;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
