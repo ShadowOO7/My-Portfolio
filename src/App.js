@@ -4,6 +4,7 @@ import ParticlesBackground from './components/ParticlesBackground';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
 import CodingProfiles from './components/CodingProfiles';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
