@@ -19,6 +19,7 @@ function App() {
         <main>
           <Hero />
           <About /> {/* Note: Sections now have their IDs within their own components */}
+          <Skills />
           <CodingProfiles />
           <Projects />
           <Resume />
